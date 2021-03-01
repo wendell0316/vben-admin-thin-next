@@ -22,7 +22,6 @@
     setup() {
       // support Multi-language
       const { antConfigLocale, setLocale } = useLocale();
-      console.log(1111);
 
       setLocale();
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-
+PATH="/Users/wangdong/.nvm/versions/node/v12.14.1/bin:$PATH"
 # shellcheck source=./_/husky.sh
 . "$(dirname "$0")/_/husky.sh"
 
