@@ -1,8 +1,7 @@
-PATH="/Users/wangdong/.nvm/versions/node/v12.14.1/bin:$PATH"
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 . "$(dirname "$0")/common.sh"
-
+PATH="/Users/wangdong/.nvm/versions/node/v12.14.1/bin:$PATH"
 [ -n "$CI" ] && exit 0
 
 # Check the file name
